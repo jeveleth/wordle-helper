@@ -2,6 +2,10 @@
 
 Do you like wordle, but you're stuck on which word to guess next? This tool can give you some options to narrow down your search for the right word.
 
+### Prerequisites
+
+[Go 1.17](https://go.dev/dl/) or greater.
+
 ### Usage
 
 I make the wild assumption that if you use this tool, it will be only after you've made at least one guess. (I know, I know, "when you assume, you make ..."). This means you should have some information right away: namely, at least the letters to exclude.
@@ -32,5 +36,8 @@ Of course, you can also combine the flags, e.g.: `go run main.go -pattern=sha-- 
 
 ### Installation
 
-To install, you can download the latest release, or you can build the source code.
+To install, you can:
+* download the [latest release](https://github.com/jeveleth/wordle-helper/releases), or
+* you can build the source code: e.g., `go build -o wh`.
+
 
